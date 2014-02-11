@@ -43,7 +43,6 @@ build("java:oraclejdk8", "java/java_oraclejdk8/");
 skip("java:android",    "java/android/");
 
 # node
-build("nvm",       "node/nvm");
 build("node:0.10", "node/node_0.10/");
 build("node:0.8",  "node/node_0.8/");
 
@@ -60,7 +59,6 @@ build("python:3.3",  "python/python_3.3/");
 build("python:pypy", "python/pypy/");
 
 # ruby
-build("rbenv",      "ruby/rbenv");
 build("ruby:1.9.3", "ruby/ruby_1.9.3/");
 build("ruby:2.0.0", "ruby/ruby_2.0.0/");
 
