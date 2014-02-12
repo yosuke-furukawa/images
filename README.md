@@ -101,13 +101,20 @@ sudo docker build -rm -t bradrydzewski/python:3.3  builder/python/python_3.3/
 sudo docker build -rm -t bradrydzewski/python:pypy builder/python/pypy/
 ```
 
+Ruby Images
+
+```sh
+sudo docker build -rm -t bradrydzewski/ruby:1.9.3  builder/ruby/ruby_1.9.3/
+sudo docker build -rm -t bradrydzewski/ruby:2.0.0  builder/ruby/ruby_2.0.0/
+sudo docker build -rm -t bradrydzewski/ruby:2.1.0  builder/ruby/ruby_2.1.0/
+```
+
 TODO
 
 * Java
   * Clojure
   * Scala
   * Groovy
-* Ruby
 
 TODO
 
