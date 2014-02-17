@@ -10,6 +10,9 @@ build("lein", "clojure/lein/");
 build("dart:stable", "dart/dart_stable/");
 build("dart:dev",    "dart/dart_dev/");
 
+# dlang
+build("dmd:2.064.2", "dlang/dmd_2.064.2/");
+
 # erlang
 build("kerl",          "erlang/kerl/");
 build("erlang:R16B",   "erlang/erlang_R16B/");
