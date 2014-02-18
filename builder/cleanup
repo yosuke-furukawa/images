@@ -7,6 +7,9 @@ remove("lein");
 remove("dart:stable");
 remove("dart:dev");
 
+# dlang
+remove("dmd:2.064.2");
+
 # erlang
 remove("erlang:R16B02");
 remove("erlang:R16B01");
