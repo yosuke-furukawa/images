@@ -10,6 +10,9 @@ remove("dart:dev");
 # dlang
 remove("dmd:2.064.2");
 
+# rlang
+remove("rlang:rlang");
+
 # erlang
 remove("erlang:R16B02");
 remove("erlang:R16B01");
