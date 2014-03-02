@@ -6,4 +6,4 @@ RUN apt-get -qq update && apt-get install -y openjdk-6-jdk wget                 
     mv elasticsearch /opt
 EXPOSE 9200
 ENTRYPOINT ["/opt/elasticsearch/bin/elasticsearch"]
-CMD ["-f", "-Xmx2g", "-Xms2g", "-Des.index.store.type=memory"]
+CMD ["-f", "-Des.index.store.type=memory"]
