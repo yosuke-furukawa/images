@@ -11,3 +11,4 @@ RUN rm elasticsearch-1.0.1.tar.gz
 EXPOSE 9200
 ENTRYPOINT ["/opt/elasticsearch/bin/elasticsearch"]
 CMD ["-Des.index.store.type=memory"]
+# Note that there is no -f flag from the commandline
