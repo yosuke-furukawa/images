@@ -67,6 +67,7 @@ build("python:pypy", "python/pypy/");
 # ruby
 build("ruby:1.9.3", "ruby/ruby_1.9.3/");
 build("ruby:2.0.0", "ruby/ruby_2.0.0/");
+build("ruby:2.1.1", "ruby/ruby_2.1.1/");
 
 # scala
 build("scala:2.10.3", "scala/scala_2.10.3/");
