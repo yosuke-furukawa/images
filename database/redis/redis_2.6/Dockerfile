@@ -8,6 +8,6 @@ RUN apt-get -qq update && apt-get -y install gcc make wget              && \
     cd ..                                                               && \
     rm redis-2.6.16.tar.gz && rm -rf redis-2.6.16                       && \
     mkdir /etc/redis                                                    && \
-    wget --quiet --no-check-certificate http://raw.github.com/antirez/redis/2.6/redis.conf > /etc/redis/redis.conf
+    wget --quiet --no-check-certificate http://raw.github.com/antirez/redis/2.6/redis.conf -O /etc/redis/redis.conf
 EXPOSE 6379
 ENTRYPOINT  ["/usr/bin/redis-server"]
