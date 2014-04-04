@@ -107,7 +107,9 @@ Ruby Images
 sudo docker build -rm -t bradrydzewski/ruby:1.9.3  builder/ruby/ruby_1.9.3/
 sudo docker build -rm -t bradrydzewski/ruby:2.0.0  builder/ruby/ruby_2.0.0/
 sudo docker build -rm -t bradrydzewski/ruby:2.1.0  builder/ruby/ruby_2.1.0/
-sudo docker build -rm -t bradrydzewski/ruby:2.1.0  builder/ruby/ruby_2.1.1/
+sudo docker build -rm -t bradrydzewski/ruby:2.1.1  builder/ruby/ruby_2.1.1/
+sudo docker build -rm -t bradrydzewski/jruby:1.7.11:openjdk6  builder/ruby/jruby_1.7.11_openjdk6/
+sudo docker build -rm -t bradrydzewski/jruby:1.7.11:openjdk7  builder/ruby/jruby_1.7.11_openjdk7/
 ```
 
 TODO

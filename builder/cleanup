@@ -62,7 +62,10 @@ remove("virtualenv");
 # ruby
 remove("ruby:1.9.3");
 remove("ruby:2.0.0");
+remove("ruby:2.1.0");
 remove("ruby:2.1.1");
+remove("jruby:1.7.11:openjdk6");
+remove("jruby:1.7.11:openjdk7");
 remove("rbenv");
 
 # scala
