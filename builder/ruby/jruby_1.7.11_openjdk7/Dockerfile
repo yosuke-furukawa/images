@@ -9,7 +9,7 @@ RUN export PATH=$PATH:/home/ubuntu/.rbenv/bin                                   
     git pull                                                                          && \
     export RBENV_VERSION=jruby-1.7.11                                                 && \
     eval "$(rbenv init -)"                                                            && \
-    CC=gcc rbenv install jruby-1.7.11                                                 && \
+    rbenv install jruby-1.7.11                                                 && \
     rbenv rehash                                                                      && \
     rbenv global jruby-1.7.11                                                         && \
     rbenv rehash                                                                      && \
