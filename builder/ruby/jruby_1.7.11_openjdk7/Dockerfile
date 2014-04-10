@@ -1,19 +1,17 @@
-FROM bradrydzewski/base
+FROM bradrydzewski/java:openjdk7
 
 WORKDIR /home/ubuntu
 USER ubuntu
 ADD rbenv.sh /etc/drone.d/
 
-# we already install ruby 2.1.1 in the base image
-# so we'll comment this out for now
 RUN export PATH=$PATH:/home/ubuntu/.rbenv/bin                                         && \
     cd ~/.rbenv/plugins/ruby-build                                                    && \
     git pull                                                                          && \
-    export RBENV_VERSION=2.1.1                                                        && \
+    export RBENV_VERSION=jruby-1.7.11                                                 && \
     eval "$(rbenv init -)"                                                            && \
-    CC=gcc rbenv install 2.1.1                                                        && \
+    rbenv install jruby-1.7.11                                                 && \
     rbenv rehash                                                                      && \
-    rbenv global 2.1.1                                                                && \
+    rbenv global jruby-1.7.11                                                         && \
     rbenv rehash                                                                      && \
     gem install bundler                                                               && \
     rbenv rehash
