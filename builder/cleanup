@@ -43,6 +43,8 @@ remove("java:oraclejdk8");
 skip("java:android");
 
 # node
+remove("node:iojs");
+remove("node:0.12");
 remove("node:0.10");
 remove("node:0.8");
 remove("nvm");

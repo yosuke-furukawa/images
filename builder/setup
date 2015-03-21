@@ -49,6 +49,8 @@ build("java:oraclejdk8", "java/java_oraclejdk8/");
 skip("java:android",    "java/android/");
 
 # node
+build("node:iojs", "node/node_iojs/");
+build("node:0.12", "node/node_0.12/");
 build("node:0.10", "node/node_0.10/");
 build("node:0.8",  "node/node_0.8/");
 

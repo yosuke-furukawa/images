@@ -76,6 +76,8 @@ Node Images
 
 ```sh
 sudo docker build -rm -t bradrydzewski/node builder/node/node/
+sudo docker build -rm -t bradrydzewski/node:iojs builder/node/node_iojs/
+sudo docker build -rm -t bradrydzewski/node:0.12 builder/node/node_0.12/
 sudo docker build -rm -t bradrydzewski/node:0.10 builder/node/node_0.10/
 sudo docker build -rm -t bradrydzewski/node:0.8  builder/node/node_0.8/
 sudo docker build -rm -t bradrydzewski/node:0.6  builder/node/node_0.6/
